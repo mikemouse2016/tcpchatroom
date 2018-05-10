@@ -8,4 +8,5 @@
 
 
 gcc tcp_server.c chain.c -o server -std=c99 -pthread
+
 ./server
