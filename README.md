@@ -5,3 +5,7 @@
 #define LOC_SERVER_ADDR “your server ip" // 替换成你的服务器ip地址
 
 #define QUEUELEN 10  // 同时在线最大客户数，你可以自己设置
+
+
+gcc tcp_server.c chain.c -o server -std=c99 -pthread
+./server
